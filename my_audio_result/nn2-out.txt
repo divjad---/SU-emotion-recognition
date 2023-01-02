@@ -1,0 +1,96 @@
+Keras model archive loading:
+File Name                                             Modified             Size
+config.json                                    2023-01-02 20:03:04         4087
+metadata.json                                  2023-01-02 20:03:04           64
+variables.h5                                   2023-01-02 20:03:04      3089552
+Keras weights file (<HDF5 file "variables.h5" (mode r)>) loading:
+...layers
+......conv1d
+.........vars
+............0
+............1
+......conv1d_1
+.........vars
+............0
+............1
+......conv1d_2
+.........vars
+............0
+............1
+......dense
+.........vars
+............0
+............1
+......dense_1
+.........vars
+............0
+............1
+......dropout
+.........vars
+......dropout_1
+.........vars
+......flatten
+.........vars
+......max_pooling1d
+.........vars
+......max_pooling1d_1
+.........vars
+......max_pooling1d_2
+.........vars
+...metrics
+......mean
+.........vars
+............0
+............1
+......mean_metric_wrapper
+.........vars
+............0
+............1
+...optimizer
+......vars
+.........0
+.........1
+.........10
+.........11
+.........12
+.........13
+.........14
+.........15
+.........16
+.........17
+.........18
+.........19
+.........2
+.........20
+.........3
+.........4
+.........5
+.........6
+.........7
+.........8
+.........9
+...vars
+/Users/davidtrafela/PycharmProjects/SU-emotion-recognition/my_audio/David_neutral.m4a
+neutral
+1/1 [==============================] - 0s 122ms/step
+[[0. 0. 1. 0. 0. 1. 1.]]
+/Users/davidtrafela/PycharmProjects/SU-emotion-recognition/my_audio/Hi_David_sad.m4a
+sad
+1/1 [==============================] - 0s 19ms/step
+[[0. 0. 1. 0. 1. 1. 0.]]
+/Users/davidtrafela/PycharmProjects/SU-emotion-recognition/my_audio/David_angry.m4a
+angry
+1/1 [==============================] - 0s 18ms/step
+[[1. 0. 1. 0. 0. 1. 0.]]
+/Users/davidtrafela/PycharmProjects/SU-emotion-recognition/my_audio/David_sad.m4a
+sad
+1/1 [==============================] - 0s 22ms/step
+[[0. 0. 1. 0. 0. 1. 1.]]
+/Users/davidtrafela/PycharmProjects/SU-emotion-recognition/my_audio/Hi_David_happy.m4a
+happy
+1/1 [==============================] - 0s 18ms/step
+[[0. 0. 1. 0. 0. 1. 1.]]
+/Users/davidtrafela/PycharmProjects/SU-emotion-recognition/my_audio/Hi_David_neutral.m4a
+neutral
+1/1 [==============================] - 0s 22ms/step
+[[0. 0. 1. 0. 1. 1. 0.]]

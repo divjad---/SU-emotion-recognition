@@ -1,0 +1,26 @@
+["angry", "neutral", "disgust", "sad", "fear", "happy", "surprise"]
+
+/Users/davidtrafela/PycharmProjects/SU-emotion-recognition/my_audio/David_neutral.m4a
+neutral
+[[0.15733193 0.14704257 0.15875289 0.14474621 0.14591753 0.16426584
+  0.08194303]]
+/Users/davidtrafela/PycharmProjects/SU-emotion-recognition/my_audio/Hi_David_sad.m4a
+sad
+[[0.1501214  0.14619938 0.16139264 0.14987774 0.13753017 0.15384868
+  0.10102999]]
+/Users/davidtrafela/PycharmProjects/SU-emotion-recognition/my_audio/David_angry.m4a
+angry
+[[0.164369   0.14019527 0.15865333 0.13656711 0.14941879 0.1617321
+  0.08906439]]
+/Users/davidtrafela/PycharmProjects/SU-emotion-recognition/my_audio/David_sad.m4a
+sad
+[[0.15224476 0.14376313 0.15829917 0.1444852  0.1301907  0.15885076
+  0.11216629]]
+/Users/davidtrafela/PycharmProjects/SU-emotion-recognition/my_audio/Hi_David_happy.m4a
+happy
+[[0.16304492 0.14007065 0.16123246 0.13610921 0.13941323 0.1599567
+  0.10017283]]
+/Users/davidtrafela/PycharmProjects/SU-emotion-recognition/my_audio/Hi_David_neutral.m4a
+neutral
+[[0.1501214  0.14619938 0.16139264 0.14987774 0.13753017 0.15384868
+  0.10102999]]
