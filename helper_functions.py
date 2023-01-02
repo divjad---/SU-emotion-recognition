@@ -4,14 +4,12 @@ import warnings
 
 import librosa
 import librosa.display
-# librosa is a Python library for analyzing audio and music. It can be used to extract the data from the audio files we will see it later.
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas
 import pandas as pd
 from tqdm import tqdm
-
-# to play the audio files
 
 if not sys.warnoptions:
     warnings.simplefilter("ignore")
@@ -163,7 +161,6 @@ def extract_features(data, sample_rate):
 
 
 def get_features(path):
-    # duration and offset are used to take care of the no audio in start and the ending of each audio files as seen above.
     data, sample_rate = librosa.load(path, duration=2.5, offset=0.6)
 
     # without augmentation
@@ -211,7 +208,6 @@ def add_features(X, Y, df):
         feature = get_features(path)
         for ele in feature:
             X.append(ele)
-            # appending emotion 3 times as we have made 3 augmentation techniques on each audio file.
             Y.append(emotion)
 
 
